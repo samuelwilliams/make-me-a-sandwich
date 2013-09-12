@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+
+##
+# ASCII art from: http://www.geocities.com/spunk1111/food.htm#sandwich
+##
+
+if [ `whoami` == 'root' ]; then
+
+    echo '                              ____
+                  .----------'\''    '\''-.
+                 /  .      '\''     .   \
+                /        '\''    .      /|
+               /      .             \ /
+              /  '\'' .       .     .  || |
+             /.___________    '\''    / //
+             |._          '\''------'\''| /|
+             '\''.............______.-'\'' /  
+             |-.                  | /
+             `"""""""""""""-.....-'\''
+    '
+else
+    echo "Fuck you! Make your own damn sandwich!";
+fi
